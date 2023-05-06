@@ -350,7 +350,7 @@ function App() {
         { id: 2, amount: "₹ 2000" },
         { id: 3, amount: "₹ 3000" },
         { id: 4, amount: "₹ 5000" },
-        { id: 5, amount: "₹ 1,000" },
+        { id: 5, amount: "₹ 10,000" },
         { id: 6, amount: "₹ 20,000" },
         { id: 7, amount: "₹ 40,000" },
         { id: 8, amount: "₹ 80,000" },
