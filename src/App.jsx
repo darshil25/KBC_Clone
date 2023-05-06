@@ -13,66 +13,330 @@ function App() {
   const data = [
     {
       id: 1,
-      question: "Rolex is a company that specializes in what type of product?",
+      question: "What color are bananas when they are ripe?",
       answers: [
         {
-          text: "Phone",
+          text: "Red",
           correct: false,
         },
         {
-          text: "Watches",
+          text: "Blue",
+          correct: false,
+        },
+        {
+          text: "Yellow",
           correct: true,
         },
         {
-          text: "Food",
-          correct: false,
-        },
-        {
-          text: "Cosmetic",
+          text: "Green",
           correct: false,
         },
       ],
     },
     {
       id: 2,
-      question: "When did the website `Facebook` launch?",
+      question: "What is the name of the largest ocean on Earth?",
       answers: [
         {
-          text: "2004",
+          text: "Atlantic Ocean",
+          correct: false,
+        },
+        {
+          text: "Indian Ocean",
+          correct: false,
+        },
+        {
+          text: "Pacific Ocean",
           correct: true,
         },
         {
-          text: "2005",
-          correct: false,
-        },
-        {
-          text: "2006",
-          correct: false,
-        },
-        {
-          text: "2007",
+          text: "Arctic Ocean",
           correct: false,
         },
       ],
     },
     {
       id: 3,
-      question: "Who played the character of harry potter in movie?",
+      question: "Which planet is closest to the Sun?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "Venus",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
+          text: "Earth",
           correct: false,
         },
         {
-          text: "Denzel Washington",
+          text: "Mars",
           correct: false,
         },
         {
-          text: "Daniel Red Cliff",
+          text: "Mercury",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 4,
+      question: "Who painted the Mona Lisa?",
+      answers: [
+        {
+          text: "Michelangelo",
+          correct: false,
+        },
+        {
+          text: "Leonardo da Vinci",
+          correct: true,
+        },
+        {
+          text: "Vincent van Gogh",
+          correct: false,
+        },
+        {
+          text: "Pablo Picasso",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 5,
+      question: "What is the capital of India?",
+      answers: [
+        {
+          text: "Mumbai",
+          correct: false,
+        },
+        {
+          text: "Kolkata",
+          correct: false,
+        },
+        {
+          text: "New Delhi",
+          correct: true,
+        },
+        {
+          text: "Chennai",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 6,
+      question: "What is the name of the world's tallest mountain?",
+      answers: [
+        {
+          text: "Mount Kilimanjaro",
+          correct: false,
+        },
+        {
+          text: "Mount Everest",
+          correct: true,
+        },
+        {
+          text: "Mount Denali",
+          correct: false,
+        },
+        {
+          text: "Mount McKinley",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 7,
+      question: "Which famous scientist is known for his theory of relativity?",
+      answers: [
+        {
+          text: "Isaac Newton",
+          correct: false,
+        },
+        {
+          text: "Albert Einstein",
+          correct: true,
+        },
+        {
+          text: "Galileo Galilei",
+          correct: false,
+        },
+        {
+          text: "Charles Darwin",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 8,
+      question: "What is the smallest country in the world by land area?",
+      answers: [
+        {
+          text: "Vatican City",
+          correct: true,
+        },
+        {
+          text: "Monaco",
+          correct: false,
+        },
+        {
+          text: "San Marino",
+          correct: false,
+        },
+        {
+          text: "Liechtenstein",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 9,
+      question: "Which planet is closest to the Sun?",
+      answers: [
+        {
+          text: "Venus",
+          correct: false,
+        },
+        {
+          text: "Earth",
+          correct: false,
+        },
+        {
+          text: "Mars",
+          correct: false,
+        },
+        {
+          text: "Mercury",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 10,
+      question: "Which planet is closest to the Sun?",
+      answers: [
+        {
+          text: "Venus",
+          correct: false,
+        },
+        {
+          text: "Earth",
+          correct: false,
+        },
+        {
+          text: "Mars",
+          correct: false,
+        },
+        {
+          text: "Mercury",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 11,
+      question: "Which planet is closest to the Sun?",
+      answers: [
+        {
+          text: "Venus",
+          correct: false,
+        },
+        {
+          text: "Earth",
+          correct: false,
+        },
+        {
+          text: "Mars",
+          correct: false,
+        },
+        {
+          text: "Mercury",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 12,
+      question: "Which planet is closest to the Sun?",
+      answers: [
+        {
+          text: "Venus",
+          correct: false,
+        },
+        {
+          text: "Earth",
+          correct: false,
+        },
+        {
+          text: "Mars",
+          correct: false,
+        },
+        {
+          text: "Mercury",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 13,
+      question: "Which planet is closest to the Sun?",
+      answers: [
+        {
+          text: "Venus",
+          correct: false,
+        },
+        {
+          text: "Earth",
+          correct: false,
+        },
+        {
+          text: "Mars",
+          correct: false,
+        },
+        {
+          text: "Mercury",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 14,
+      question: "Which planet is closest to the Sun?",
+      answers: [
+        {
+          text: "Venus",
+          correct: false,
+        },
+        {
+          text: "Earth",
+          correct: false,
+        },
+        {
+          text: "Mars",
+          correct: false,
+        },
+        {
+          text: "Mercury",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 15,
+      question: "Which planet is closest to the Sun?",
+      answers: [
+        {
+          text: "Venus",
+          correct: false,
+        },
+        {
+          text: "Earth",
+          correct: false,
+        },
+        {
+          text: "Mars",
+          correct: false,
+        },
+        {
+          text: "Mercury",
           correct: true,
         },
       ],
