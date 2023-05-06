@@ -189,155 +189,155 @@ function App() {
     },
     {
       id: 9,
-      question: "Which planet is closest to the Sun?",
+      question: "Which country is home to the kangaroo?",
       answers: [
         {
-          text: "Venus",
-          correct: false,
-        },
-        {
-          text: "Earth",
-          correct: false,
-        },
-        {
-          text: "Mars",
-          correct: false,
-        },
-        {
-          text: "Mercury",
+          text: "Australia",
           correct: true,
+        },
+        {
+          text: "Brazil",
+          correct: false,
+        },
+        {
+          text: "Canada",
+          correct: false,
+        },
+        {
+          text: "Italy",
+          correct: false,
         },
       ],
     },
     {
       id: 10,
-      question: "Which planet is closest to the Sun?",
+      question: "What is the name of the world's largest desert?",
       answers: [
         {
-          text: "Venus",
-          correct: false,
-        },
-        {
-          text: "Earth",
-          correct: false,
-        },
-        {
-          text: "Mars",
-          correct: false,
-        },
-        {
-          text: "Mercury",
+          text: "Sahara Desert",
           correct: true,
+        },
+        {
+          text: "Gobi Desert",
+          correct: false,
+        },
+        {
+          text: "Arabian Desert",
+          correct: false,
+        },
+        {
+          text: "Antarctic Desert",
+          correct: false,
         },
       ],
     },
     {
       id: 11,
-      question: "Which planet is closest to the Sun?",
+      question: "Who wrote the famous novel 'To Kill a Mockingbird' ?",
       answers: [
         {
-          text: "Venus",
+          text: "Ernest Hemingway",
           correct: false,
         },
         {
-          text: "Earth",
+          text: "Charles Dickens",
           correct: false,
         },
         {
-          text: "Mars",
+          text: "Jane Austen",
           correct: false,
         },
         {
-          text: "Mercury",
+          text: "Harper Lee",
           correct: true,
         },
       ],
     },
     {
       id: 12,
-      question: "Which planet is closest to the Sun?",
+      question: "What is the largest animal on Earth?",
       answers: [
         {
-          text: "Venus",
+          text: "Hippopotamus",
           correct: false,
         },
         {
-          text: "Earth",
+          text: "Giraffe",
           correct: false,
         },
         {
-          text: "Mars",
-          correct: false,
-        },
-        {
-          text: "Mercury",
+          text: "Blue Whale",
           correct: true,
+        },
+        {
+          text: "Elephant",
+          correct: false,
         },
       ],
     },
     {
       id: 13,
-      question: "Which planet is closest to the Sun?",
+      question: "What is the chemical symbol for gold?",
       answers: [
         {
-          text: "Venus",
+          text: "Go",
           correct: false,
         },
         {
-          text: "Earth",
+          text: "Gd",
           correct: false,
         },
         {
-          text: "Mars",
+          text: "Ag",
           correct: false,
         },
         {
-          text: "Mercury",
+          text: "Au",
           correct: true,
         },
       ],
     },
     {
       id: 14,
-      question: "Which planet is closest to the Sun?",
+      question: "Who was the first person to walk on the Moon?",
       answers: [
         {
-          text: "Venus",
+          text: "Buzz Aldrin",
           correct: false,
         },
         {
-          text: "Earth",
-          correct: false,
-        },
-        {
-          text: "Mars",
-          correct: false,
-        },
-        {
-          text: "Mercury",
+          text: "Neil Armstrong",
           correct: true,
+        },
+        {
+          text: "Yuri Gagarin",
+          correct: false,
+        },
+        {
+          text: "Alan Shepard",
+          correct: false,
         },
       ],
     },
     {
       id: 15,
-      question: "Which planet is closest to the Sun?",
+      question: "What is the highest waterfall in the world?",
       answers: [
         {
-          text: "Venus",
+          text: "Niagara Falls",
           correct: false,
         },
         {
-          text: "Earth",
+          text: "Victoria Falls",
           correct: false,
         },
         {
-          text: "Mars",
-          correct: false,
-        },
-        {
-          text: "Mercury",
+          text: "Angel Falls",
           correct: true,
+        },
+        {
+          text: "Iguazu Falls",
+          correct: false,
         },
       ],
     },
