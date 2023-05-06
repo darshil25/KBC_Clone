@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Online KBC
+Online KBC is a quiz game inspired by the popular Indian television show "Kaun Banega Crorepati" (KBC). In this game, participants answer a series of multiple-choice questions in order to win increasingly larger amounts of prize money, up to a maximum of 1 crore rupees.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed using React, a popular JavaScript library for building user interfaces. The game is fully responsive and can be played on desktop and mobile devices.
 
-## Available Scripts
+You can play it here :- https://onlinekbc.netlify.app/
+![image](https://user-images.githubusercontent.com/96040173/236631301-305a1d2e-b27e-4b2b-bf2b-1a82ba735322.png)
 
-In the project directory, you can run:
+# How to Play
+* Enter your name and click the "Start Game" button.
+* You will be presented with a series of multiple-choice questions. Select your answer and click the "Next" button to proceed to the next question.
+* The prize money increases with each question. You can choose to quit the game at any time and take the prize money you have earned so far.
+* If you answer all the questions correctly, you will win the maximum prize of 1 crore rupees!
 
-### `npm start`
+# Contributing
+If you would like to contribute to this project, feel free to open a pull request. Please make sure to follow the existing code style and write clear commit messages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Acknowledgments
+* This project was inspired by the KBC television show.
+* Special thanks to the creators of React and the various libraries and tools used in this project.
